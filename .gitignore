@@ -5,3 +5,4 @@ shapes3D/
 *.wrl
 _autosave*
 *.bak
+*-bak
