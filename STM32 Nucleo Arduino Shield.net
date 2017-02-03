@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "E:\\Documents\\KiCad\\STM32 Nucleo Arduino Shield\\STM32 Nucleo Arduino Shield.sch")
-    (date "2017-02-02 6:58:40 PM")
+    (source "E:/Documents/KiCad/STM32 Nucleo Arduino Shield/STM32 Nucleo Arduino Shield.sch")
+    (date "2017-02-03 10:06:20 AM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -413,7 +413,7 @@
       (tstamp 58919CA5))
     (comp (ref P13)
       (value CONN_02X05)
-      (footprint Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm)
+      (footprint Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm)
       (libsource (lib conn) (part CONN_02X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5891E737))
@@ -1103,14 +1103,14 @@
         (pin (num 4) (name -) (type input))
         (pin (num 5) (name V+) (type power_in)))))
   (libraries
+    (library (logical MySynthParts)
+      (uri E:\Documents\KiCad\MyLibs\MySynthParts.lib))
+    (library (logical "STM32 Nucleo Arduino Shield-cache")
+      (uri "E:\\Documents\\KiCad\\STM32 Nucleo Arduino Shield\\STM32 Nucleo Arduino Shield-cache.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical "STM32 Nucleo Arduino Shield-cache")
-      (uri "E:\\Documents\\KiCad\\STM32 Nucleo Arduino Shield\\STM32 Nucleo Arduino Shield-cache.lib"))
-    (library (logical MySynthParts)
-      (uri E:\Documents\KiCad\MyLibs\MySynthParts.lib)))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(P3-Pad10)")
       (node (ref P3) (pin 10)))

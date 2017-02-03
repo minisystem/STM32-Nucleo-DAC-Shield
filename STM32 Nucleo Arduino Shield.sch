@@ -1660,7 +1660,7 @@ U 1 1 5891E737
 P 14350 1275
 F 0 "P13" H 14350 1575 50  0000 C CNN
 F 1 "CONN_02X05" H 14350 975 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 14350 75  60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 14350 75  60  0001 C CNN
 F 3 "" H 14350 75  60  0000 C CNN
 	1    14350 1275
 	1    0    0    1   
