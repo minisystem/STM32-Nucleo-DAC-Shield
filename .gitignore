@@ -2,6 +2,7 @@
 #ignore this bullshit
 
 shapes3D/
+Gerbers/*.svg
 *.wrl
 _autosave*
 *.bak
